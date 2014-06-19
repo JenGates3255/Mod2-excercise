@@ -1,11 +1,13 @@
 /* ADD YOUR STYLES HERE */
-/*excercise 1*/
+/*excercise 6*/
 .firstboxes >*{
 display: inline-block;
 padding: 10px;
+margin-right: 20px;
+margin-left: 20px;
 }
 
-/*********************/
+/*______7&8_______*/
 .horizlist >*{
 	vertical-align: top;
 	display: inline-block;
@@ -15,9 +17,11 @@ padding: 10px;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
+/*-----------9&10----------*/
 .horizlist2 >*{
 	vertical-align: top;
 	display: inline-block;
+	margin-left: -3px;
 }
 
 .buttonvaried	{
@@ -49,39 +53,64 @@ padding: 10px;
 	display: inline;
 	text-decoration: none;
 	border: 0;
+	
+
 }
 .nav {
 	float: left;
+	margin-right: -6px;
+
 }
+
 .nav:hover {
 	color:black; 
 }
 #nav {
 	display: inline;
 	list-style-type: none;
-	padding-right: 20px;
+	padding-left: 20px;
 }
 
-/*________________________*/
+/*_____11___________________*/
 
 .list {
 	list-style-type: none;
+
 
 }
 
 .nums {
 	color: salmon;
-	font-size: 20px;
-		float: left;
+	font-size: 16px;
+/*	text-align: center;*/
+	float: left;
+	margin: 2px;
+	padding: 5px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	text-decoration: none;
+
+}
+.text {
+	color: salmon;
+	font-size: 16px;
+	float: left;
+	margin: 2px;
+	padding: 5px;
+	text-decoration: none;
+	text-align: top;
 }
 
-span {
+#span {
 	color: gray;
-	font-size: 20px;
-	text-decoration: underline;
+	text-align: bottom;
+	margin: 10px;
+
+
+
 }
 
-/*________________________*/
+/*________12________________*/
 
 time {
 	font-size: 12px;
@@ -95,7 +124,7 @@ time {
 }
 
 .txt {
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 	float: left;
 	
 }
@@ -109,4 +138,40 @@ time {
 .txt2 {
 	padding-bottom: 20px;
 	float: left;
+}
+/*__________13__________*/
+.lastlist {
+	list-style-type: none;
+}
+.num {
+	text-decoration: none;
+	color:blue;
+	font-weight: bold;
+	float: left;
+	display: inline-block;
+	border: solid 1px; 
+	border-bottom: none;
+	border-color: gray;
+	border-radius: 5px 5px 0 0;
+	padding: 5px;
+/*	margin: none;*/
+	margin-right: 5px;
+}
+.focus {
+	border-bottom: solid 1px white;
+	margin-bottom: -10px;
+	background-color: white;
+	position: relative;
+
+}
+.main {
+	float: left;
+	width: 90%;
+	height: 20%;
+	border: solid 1px;
+	border-color: gray;
+	padding: 7px;
+	padding-top: 10px;
+	border-radius: 5px;
+/*	margin: none;*/
 }
